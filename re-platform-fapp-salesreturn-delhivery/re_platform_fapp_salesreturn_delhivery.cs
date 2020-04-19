@@ -64,8 +64,6 @@ namespace re_platform_fapp_salesreturn_delhivery
 
                     response.success = true;
 
-
-
                     return new HttpResponseMessage(HttpStatusCode.OK)
                     {
                         Content = new StringContent(JsonConvert.SerializeObject(response), Encoding.UTF8, "application/json")
